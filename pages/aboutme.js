@@ -1,8 +1,8 @@
-const aboutme = () => {
+const AboutMe = () => {
   return (
     <div>
-      <h1 className="bg-[#3792b6]">about me</h1>
+      <h1 className="">about me</h1>
     </div>
   );
 };
-export default aboutme;
+export default AboutMe;

@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-white top-0 left-0 right-0 sticky z-50 shadow-md">
+      <nav className="dark:bg-slate-700 top-0 left-0 right-0 sticky z-50 shadow-md">
         <div className="w-11/12 mx-auto ">
           {/* Web header */}
           <div className="flex justify-between">
