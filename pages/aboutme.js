@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <div>
+    <div className="bg-stone-900">
       <h1 className="">about me</h1>
     </div>
   );

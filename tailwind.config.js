@@ -8,6 +8,9 @@ module.exports = {
       gridTemplateRows: {
         layout: "auto 1fr auto",
       },
+      colors: {
+        neon: "#b7e635",
+      },
     },
   },
   plugins: [],

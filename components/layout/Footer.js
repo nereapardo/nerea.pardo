@@ -1,4 +1,4 @@
 const Footer = () => {
-  return <div className="bg-gray-800 text-white">About me</div>;
+  return <div className="bg-neon">About me</div>;
 };
 export default Footer;
