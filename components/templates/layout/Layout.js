@@ -1,5 +1,6 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "../../organisms/navbar";
+import Footer from "../../molecules/footer";
+
 const Layout = (props) => {
   return (
     <div className="grid grid-rows-layout h-full">
@@ -9,5 +10,4 @@ const Layout = (props) => {
     </div>
   );
 };
-
 export default Layout;
