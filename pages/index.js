@@ -91,7 +91,7 @@ export default function Home() {
                 </h3>
                 <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
+                  typesetting industry. Lorem Ipsum has been the industrys
                   standard dummy text ever since the 1500s, when an unknown
                   printer took a galley of type and scrambled it to make a type
                   specimen book.
