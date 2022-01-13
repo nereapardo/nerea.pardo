@@ -1,5 +1,5 @@
-import Navbar from "../../organisms/navbar";
-import Footer from "../../molecules/footer";
+import Navbar from "components/organisms/navbar";
+import Footer from "components/molecules/footer";
 
 const Layout = (props) => {
   return (

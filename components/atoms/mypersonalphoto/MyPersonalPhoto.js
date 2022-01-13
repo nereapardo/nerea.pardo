@@ -1,5 +1,5 @@
 import Image from "next/image";
-import me from "./../../public/images/me.jpg";
+import me from "public/images/me.jpg";
 const MyPersonalPhoto = () => {
   return (
     <div className="border-8 border-double border-neon rounded-full w-fit h-fit">
