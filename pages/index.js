@@ -1,5 +1,5 @@
 import Head from "next/head";
-import MyPersonalPhoto from "../components/atoms/MyPersonalPhoto";
+import MyPersonalPhoto from "../components/atoms/my-personal-photo";
 import Link from "next/link";
 
 export default function Home() {
