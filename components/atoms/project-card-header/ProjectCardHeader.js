@@ -1,7 +1,7 @@
 import Image from "next/image";
-import moneyRain from "public/images/moneyRain.png";
-import homeConnection from "public/images/homeConnection.png";
-import homeHopper from "public/images/homeHopper.png";
+import moneyRain from "public/images/moneyRain.jpg";
+import homeConnection from "public/images/homeConnection.jpg";
+import homeHopper from "public/images/homeHopper.jpg";
 
 const photos = {
   moneyRain: moneyRain,
