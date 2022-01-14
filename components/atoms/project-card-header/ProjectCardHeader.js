@@ -1,12 +1,12 @@
 import Image from "next/image";
-import moneyRain from "/public/images/moneyRain";
-import HomeConnection from "/public/images/homeConnection";
-import HomeHopper from "../../../public/images/homeHopper";
+import moneyRain from "public/images/moneyRain.png";
+import homeConnection from "public/images/homeConnection.png";
+import homeHopper from "public/images/homeHopper.png";
 
 const photos = {
   moneyRain: moneyRain,
   homeConnection: homeConnection,
-  homeHopper: HomeHopper,
+  homeHopper: homeHopper,
 };
 const ProjectCardHeader = ({ project }) => {
   return (
