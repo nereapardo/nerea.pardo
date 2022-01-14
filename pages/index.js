@@ -4,6 +4,13 @@ import Link from "next/link";
 import ProjectTimeline from "components/organisms/project-timeline/ProjectTimeline";
 
 export default function Home() {
+  let width;
+  const breakpoint = 1024;
+  if (typeof window !== "undefined") {
+    width = window.innerWidth;
+    console.log(width);
+  }
+
   return (
     <>
       <Head>
@@ -13,24 +20,24 @@ export default function Home() {
       </Head>
       <div className="bg-stone-900 flex flex-col items-center pt-16 text-white">
         <MyPersonalPhoto />
-        <h1 className="my-6 text-5xl">
+        <h1 className="my-6 text-2xl px-6 md:text-5xl text-center">
           Hi, I am <span className="font-bold">Nerea Pardo Cundíns</span>
         </h1>
-        <h2 className="font-light text-4xl">Nice to meet you!</h2>
+        <h2 className="font-light text-xl md:text-4xl">Nice to meet you!</h2>
         <div className="mx-8 mb-24">
-          <p className="font-light my-8 text-stone-400 text-2xl mb-14">
+          <p className="font-light my-8 text-stone-400 text-2xl mb-14 text-center">
             I am a Full-Stack web developer and my motivation is to help people
             through quality software that can make their lives easier.
           </p>
-          <div className="flex justify-around">
+          <div className="flex flex-col sm:flex-row justify-around">
             <Link href="/aboutme">
-              <a className="rounded-3xl border-2 border-neon py-1 px-4 font-light text-neon text-2xl">
+              <a className="rounded-3xl border-2 border-neon py-1 px-4 font-light text-neon  text-lg md:text-2xl text-center mb-4  sm:mb-0">
                 More about me &#10141;
               </a>
             </Link>
             <Link href="https://drive.google.com/file/d/1QHBUhQEKw-sKHnl4cO-3Dvtuc-plKL7-/view?usp=sharing">
               <a
-                className="rounded-3xl bg-neon py-1 px-4 text-2xl text-slate-900 font-bold"
+                className="rounded-3xl bg-neon py-1 px-4 text-lg md:text-2xl text-slate-900 text-center mb-4 sm:mb-0 font-bold"
                 target="_blank"
               >
                 My resume

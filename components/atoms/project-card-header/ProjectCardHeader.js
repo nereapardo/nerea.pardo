@@ -15,7 +15,7 @@ const ProjectCardHeader = ({ project }) => {
         src={photos[project]}
         alt={project}
         layout="fill"
-        objectFit="cover"
+        objectFit="contain"
         className="rounded-lg"
       />
     </div>

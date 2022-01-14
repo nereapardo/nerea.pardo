@@ -6,16 +6,16 @@ import ProjectCardBtn from "components/atoms/project-card-btn/ProjectCardBtn";
 const ProjectTimeline = () => {
   let moneyRain, homeConnection, homeHopper;
   return (
-    <div className="container mx-auto w-full h-full m-12 px-12">
-      <div className="relative wrap overflow-hidden h-full p-2">
+    <div className="container mx-auto w-full h-full m-12 px-12 ">
+      <div className="relative wrap overflow-hidden h-full p-2 ">
         <div
-          className="border-2-2 absolute border-opacity-20 border-neon h-full border"
+          className="invisible lg:visible border-2-2 absolute border-opacity-20 border-neon h-full border"
           style={{ left: "50%" }}
         ></div>
         {/* right timeline */}
         <div className="mb-8 flex justify-between items-center w-full right-timeline">
-          <div className="order-1 w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-neon shadow-xl w-8 h-8 rounded-full"></div>
+          <div className="order-1 lg:w-5/12"></div>
+          <div className="hidden lg:flex z-20 items-center order-1 bg-neon shadow-xl w-8 h-8 rounded-full"></div>
           <ProjectCard>
             <ProjectCardHeader project={"homeHopper"} />
             <ProjectCardDescription>
@@ -30,8 +30,8 @@ const ProjectTimeline = () => {
 
         {/*  left timeline */}
         <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-          <div className="order-1 w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-neon shadow-xl w-8 h-8 rounded-full"></div>
+          <div className="order-1 lg:w-5/12"></div>
+          <div className="hidden lg:flex z-20 flex items-center order-1 bg-neon shadow-xl w-8 h-8 rounded-full"></div>
           <ProjectCard>
             <ProjectCardHeader project={"homeConnection"} />
             <ProjectCardDescription>
@@ -46,8 +46,8 @@ const ProjectTimeline = () => {
 
         {/* right timeline */}
         <div className="flex justify-between items-center w-full right-timeline">
-          <div className="order-1 w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-neon shadow-xl w-8 h-8 rounded-full"></div>
+          <div className="order-1 lg:w-5/12"></div>
+          <div className="hidden lg:flex z-20 flex items-center order-1 bg-neon shadow-xl w-8 h-8 rounded-full"></div>
           <ProjectCard>
             <ProjectCardHeader project={"moneyRain"} />
             <ProjectCardDescription>
