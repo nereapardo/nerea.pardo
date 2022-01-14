@@ -1,5 +1,5 @@
 import Image from "next/image";
-import me from "public/images/me";
+import me from "public/images/me.jpg";
 
 const MyPersonalPhoto = () => {
   return (
