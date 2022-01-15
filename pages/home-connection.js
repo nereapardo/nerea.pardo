@@ -2,7 +2,7 @@ import Project from "components/sections/project/Project";
 import Image from "next/image";
 import homeConnectionLaptop from "public/images/homeConnectionLaptop.png";
 import map from "public/images/map.png";
-import Technologies from "components/atoms/technologies/technologies";
+import Technologies from "components/atoms/technologies/";
 
 const HomeConnection = () => {
   return (
