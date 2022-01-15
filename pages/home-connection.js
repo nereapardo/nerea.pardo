@@ -1,8 +1,8 @@
 import Project from "components/sections/project/Project";
-import Image from "next/image";
-import homeConnectionLaptop from "public/images/homeConnectionLaptop.png";
-import map from "public/images/map.png";
 import Technologies from "components/atoms/technologies/";
+import Image from "next/image";
+import map from "public/images/map.png";
+import homeConnectionLaptop from "public/images/homeConnectionLaptop.jpg";
 
 const HomeConnection = () => {
   return (
