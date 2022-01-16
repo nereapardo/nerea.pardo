@@ -1,6 +1,6 @@
 import Head from "next/head";
 import MyPersonalPhoto from "components/atoms/my-personal-photo";
-import Link from "next/link";
+import Link from "components/atoms/link";
 import ProjectTimeline from "components/organisms/project-timeline/ProjectTimeline";
 
 export default function Home() {
@@ -30,23 +30,21 @@ export default function Home() {
             through quality software that can make their lives easier.
           </p>
           <div className="flex flex-col sm:flex-row justify-around">
-            <Link href="/aboutme">
-              <a className="rounded-3xl border-2 border-neon py-1 px-4 font-light text-neon  text-lg md:text-2xl text-center mb-4  sm:mb-0">
-                More about me &#10141;
-              </a>
+            <Link href="/aboutme" type="secondary" className="mb-4  sm:mb-0">
+              More about me &#10141;
             </Link>
-            <Link href="https://drive.google.com/file/d/1QHBUhQEKw-sKHnl4cO-3Dvtuc-plKL7-/view?usp=sharing">
-              <a
-                className="rounded-3xl bg-neon py-1 px-4 text-lg md:text-2xl text-slate-900 text-center mb-4 sm:mb-0 font-bold"
-                target="_blank"
-              >
-                My resume
-              </a>
+            <Link
+              href="https://drive.google.com/file/d/1QHBUhQEKw-sKHnl4cO-3Dvtuc-plKL7-/view?usp=sharing"
+              external
+              type="primary"
+              className="mb-4  sm:mb-0"
+            >
+              My resume
             </Link>
           </div>
         </div>
 
-        <h2 className="text-5xl mb-6">My projects</h2>
+        <h2 className="text-5xl mb-6 font-light">My projects</h2>
         <ProjectTimeline />
       </div>
     </>
