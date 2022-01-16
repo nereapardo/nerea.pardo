@@ -1,7 +1,6 @@
 import Project from "components/sections/project/Project";
 import Technologies from "components/atoms/technologies/";
 import Link from "components/atoms/link";
-import NextLink from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import Image from "next/image";
@@ -30,14 +29,14 @@ const HomeHopper = () => {
           <Link href="#" type="secondary" external>
             Visit site &#10141;
           </Link>
-          <NextLink
+          <Link
             href="https://github.com/Home-Hopper/Home-Hopper"
             external
             type="unstyled"
             className="text-neon text-5xl"
           >
             <FontAwesomeIcon icon={faGithub} className="text-neon text-5xl" />
-          </NextLink>
+          </Link>
         </div>
       </Project>
       <Technologies

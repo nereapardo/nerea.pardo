@@ -1,7 +1,6 @@
 import Project from "components/sections/project/Project";
 import Technologies from "components/atoms/technologies/";
 import Link from "components/atoms/link/";
-import NextLink from "next/link";
 import Image from "next/image";
 import map from "public/images/map.png";
 import homeConnectionLaptop from "public/images/homeConnectionLaptop.jpg";
@@ -27,13 +26,13 @@ const HomeConnection = () => {
           >
             Visit site &#10141;
           </Link>
-          <NextLink
+          <Link
             href="https://github.com/nereapardo/home-connection"
             external
             type="unstyled"
           >
             <FontAwesomeIcon icon={faGithub} className="text-neon text-5xl" />
-          </NextLink>
+          </Link>
         </div>
       </Project>
       <Technologies technologies="CSS, HTML, JS, DOM" className="mb-4" />
