@@ -13,17 +13,13 @@ const HomeHopper = () => {
   return (
     <div className="bg-stone-900 py-12">
       <Project image={homeHopperLaptop} title="Home Hopper">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-          deleniti repellendus odit dignissimos voluptate illo non alias,
-          exercitationem qui ipsam similique sint aspernatur modi consectetur
-          itaque doloribus architecto, doloremque accusamus.
+        <p className="mb-4">
+          MERN Web App. Based on a previous project I developed, this website is
+          focused both on the needs of landlords and tenants.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure
-          inventore, numquam non magnam dignissimos ad consequuntur illum
-          laborum aut adipisci saepe, culpa reprehenderit explicabo deserunt
-          fuga, earum unde perferendis.
+          Landlords in more than +2000 cities of Spain can post their available
+          rooms so people can contact them.
         </p>
         <div className="flex mt-8 justify-between ">
           <Link href="#" type="secondary" external>
@@ -40,26 +36,38 @@ const HomeHopper = () => {
         </div>
       </Project>
       <Technologies
-        technologies="CSS, HTML, JS, Handlebars, Bootstrap, Mongo, Expres,Mongoose"
-        className="mb-4"
+        technologies="Javascript, ReactJS, NodeJS, MongoDB, Mongoose, Express, Tailwind"
+        className="mb-32"
       />
       <Project image={homeHopperCollaboration} title="Why?" reverse>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-          deleniti repellendus odit dignissimos voluptate illo non alias,
-          exercitationem qui ipsam similique sint aspernatur modi consectetur
-          itaque doloribus architecto, doloremque accusamus.
+          This project was a collaboration with one of my colleagues at
+          Ironhack. We both shared bad experiences trying to find new a house
+          when we were only planning to stay in that places for only few months.
+          That&apos;s why we decided to start from my previous project in order
+          to adapt and improve it and after defining which features we wanted to
+          add we dived into work.
         </p>
-        <p>lorem</p>
       </Project>
-      <Project image={homeHopperFilter} title="Challenge">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-          deleniti repellendus odit dignissimos voluptate illo non alias,
-          exercitationem qui ipsam similique sint aspernatur modi consectetur
-          itaque doloribus architecto, doloremque accusamus.
+      <Project image={homeHopperFilter} title="Challenges">
+        <p className="mb-4">
+          Since this was our first project in collaboration, we decided to
+          organize our work based on the SCRUM methodology. We started
+          developing our MVP to which we would add more desired features later.
         </p>
-        <p>lorem</p>
+        <p className="mb-4">
+          One of the added and most challenging feature was searching filters.
+          At the end, not only we improve the autocompleted location filter from
+          the last version but added new price range and room type filters to
+          our searchbar.
+        </p>
+        <p className="mb-4">
+          Since this idea wasn&apos;t new for me, I also had to adapt and find
+          new ways to develop this platform since we were now using new
+          technologies such as React and Tailwind. I personally think this
+          helped me to understand better how to refactor existing code and
+          translate it to other programming languages.
+        </p>
       </Project>
       <ProjectsNavigationLinks previous previousProjectPage="home-connection" />
     </div>

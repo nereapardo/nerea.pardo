@@ -12,12 +12,7 @@ const HomeConnection = () => {
   return (
     <div className="bg-stone-900 py-12">
       <Project image={homeConnectionLaptop} title="Home Connection">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-          deleniti repellendus odit dignissimos voluptate illo non alias,
-          exercitationem qui ipsam similique sint aspernatur modi consectetur
-          itaque doloribus architecto, doloremque accusamus.
-        </p>
+        <p className="mb-4"></p>
         <div className="flex mt-8 justify-between ">
           <Link
             href="https://home-connection-app.herokuapp.com/"

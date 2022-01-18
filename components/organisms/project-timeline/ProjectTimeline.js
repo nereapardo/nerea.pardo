@@ -19,10 +19,9 @@ const ProjectTimeline = () => {
           <ProjectCard>
             <ProjectCardHeader project={"homeHopper"} />
             <ProjectCardDescription>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              3rd project of Ironhack&apos;s bootcamp - Improved version of
+              previous project where landlords can post their rooms for rent and
+              people can save the ones they are interested in.
             </ProjectCardDescription>
             <ProjectCardBtn page={"home-hopper"} />
           </ProjectCard>
@@ -35,10 +34,8 @@ const ProjectTimeline = () => {
           <ProjectCard>
             <ProjectCardHeader project={"homeConnection"} />
             <ProjectCardDescription>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              2nd project of Ironhack&apos;s bootcamp - Platform where landlords
+              can post their houses for rent so people can contact them.
             </ProjectCardDescription>
             <ProjectCardBtn page={"home-connection"} />
           </ProjectCard>
@@ -51,10 +48,8 @@ const ProjectTimeline = () => {
           <ProjectCard>
             <ProjectCardHeader project={"moneyRain"} />
             <ProjectCardDescription>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              1st project of Ironhack&apos;s bootcamp - Computer game based on
+              the well-known whac-a-mole game but with a twist.
             </ProjectCardDescription>
             <ProjectCardBtn page={"money-rain"} />
           </ProjectCard>

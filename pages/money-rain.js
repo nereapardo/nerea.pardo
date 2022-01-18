@@ -13,17 +13,11 @@ const MoneyRain = () => {
   return (
     <div className="bg-stone-900 py-12">
       <Project image={moneyRainLaptop} title="Money Rain">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-          deleniti repellendus odit dignissimos voluptate illo non alias,
-          exercitationem qui ipsam similique sint aspernatur modi consectetur
-          itaque doloribus architecto, doloremque accusamus.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iure
-          inventore, numquam non magnam dignissimos ad consequuntur illum
-          laborum aut adipisci saepe, culpa reprehenderit explicabo deserunt
-          fuga, earum unde perferendis.
+        <p className="mb-4">
+          Simple game with a recognizable character where your reflexes are
+          tested. The player&apos;s mission is to collect as many bills as
+          possible. But you must be cautious, because collecting 3 bills of 500€
+          in a row will make you automatically lose for being too greedy.
         </p>
         <div className="flex mt-8 justify-between ">
           <Link
@@ -42,24 +36,31 @@ const MoneyRain = () => {
           </Link>
         </div>
       </Project>
-      <Technologies technologies="CSS, HTML, JS, DOM" className="mb-32" />
+      <Technologies
+        technologies="Javascript, HTML, CSS, DOM"
+        className="mb-32"
+      />
       <Project image={moneyRainGif} title="Why?" reverse>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-          deleniti repellendus odit dignissimos voluptate illo non alias,
-          exercitationem qui ipsam similique sint aspernatur modi consectetur
-          itaque doloribus architecto, doloremque accusamus.
+        <p className="mb-4">
+          This was my first project, and at that point, I only had learned HTML,
+          CSS and Javascript, so my knowledge and possibilities were limited.
         </p>
-        <p>lorem</p>
+        <p className="mb-4">
+          Inspired by a classic game I loved playing as a child (whac-a-mole), I
+          decided to to take this challenge as an opportunity to practice with
+          DOM manipulation.
+        </p>
       </Project>
-      <Project image={moneyRainHand} title="How?">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-          deleniti repellendus odit dignissimos voluptate illo non alias,
-          exercitationem qui ipsam similique sint aspernatur modi consectetur
-          itaque doloribus architecto, doloremque accusamus.
+      <Project image={moneyRainHand} title="Challenges">
+        <p className="mb-4">
+          The biggest challenges were managing the score and levels without
+          having learned about asynchronous programming yet.
         </p>
-        <p>lorem</p>
+        <p>
+          After finding out one of my problems were related to event listeners,
+          I finally solved the scoring system and came up with a different
+          approach to increase game levels when the player had won.
+        </p>
       </Project>
       <ProjectsNavigationLinks next nextProjectPage="home-connection" />
     </div>

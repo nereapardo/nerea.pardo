@@ -30,7 +30,7 @@ export default function Home() {
             through quality software that can make their lives easier.
           </p>
           <div className="flex flex-col sm:flex-row justify-around">
-            <Link href="/aboutme" type="secondary" className="mb-4  sm:mb-0">
+            <Link href="/about-me" type="secondary" className="mb-4  sm:mb-0">
               More about me &#10141;
             </Link>
             <Link

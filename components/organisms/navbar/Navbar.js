@@ -38,7 +38,7 @@ const Navbar = () => {
                   Home
                 </Link>
                 <Link
-                  href="/aboutme"
+                  href="/about-me"
                   className="py-5 px-3 text-gray-light hover:text-purple-light-background hover:underline"
                 >
                   About me
@@ -79,7 +79,7 @@ const Navbar = () => {
               </button>
               <button
                 onClick={() => {
-                  router.push("/aboutme");
+                  router.push("/about-me");
                   handleClick();
                 }}
                 className="text-gray-light hover:text-purple-light-background hover:underline"
