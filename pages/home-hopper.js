@@ -31,7 +31,7 @@ const HomeHopper = () => {
             type="unstyled"
             className="text-neon text-5xl"
           >
-            <FontAwesomeIcon icon={faGithub} className="text-neon text-5xl" />
+            <FontAwesomeIcon icon={faGithub} className="h-12" />
           </Link>
         </div>
       </Project>

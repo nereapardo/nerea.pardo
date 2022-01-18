@@ -32,7 +32,10 @@ const MoneyRain = () => {
             external
             type="unstyled"
           >
-            <FontAwesomeIcon icon={faGithub} className="text-neon text-5xl" />
+            <FontAwesomeIcon
+              icon={faGithub}
+              className="text-neon text-5xl h-12"
+            />
           </Link>
         </div>
       </Project>
