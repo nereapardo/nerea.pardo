@@ -36,7 +36,7 @@ const HomeHopper = () => {
         </div>
       </Project>
       <Technologies
-        technologies="Javascript, ReactJS, NodeJS, MongoDB, Mongoose, Express, Tailwind"
+        technologies="Javascript, ReactJS, NodeJS, MongoDB, Tailwind"
         className="mb-32"
       />
       <Project image={homeHopperCollaboration} title="Why?" reverse>

@@ -1,7 +1,7 @@
 const Technologies = ({ technologies, className = "" }) => {
   return (
     <div className={`flex h-16 lg:h-10 ${className}`}>
-      <div className="bg-neon w-9/12 lg:w-1/2 pl-9 flex items-center text-xl">
+      <div className="bg-neon w-9/12 min-h-fit lg:w-1/2 lg:min-w-fit pl-9 flex items-center text-md md:text-xl">
         Technologies: {technologies}
       </div>
       <div className="w-16 lg:w-11  overflow-hidden inline-block">
