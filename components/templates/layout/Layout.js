@@ -3,10 +3,10 @@ import Footer from "components/molecules/footer";
 
 const Layout = (props) => {
   return (
-    <div className="grid grid-rows-layout h-full">
+    <div className="grid grid-rows-layout bg-stone-900">
       <Navbar />
       {props.children}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

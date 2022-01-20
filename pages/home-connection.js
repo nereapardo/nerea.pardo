@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const HomeConnection = () => {
   return (
-    <div className="bg-stone-900 py-12">
+    <div className="py-12 overflow-y-auto">
       <Project image={homeConnectionLaptop} title="Home Connection">
         <p className="mb-4">
           Web app developed to make the process of renting a house easier. This

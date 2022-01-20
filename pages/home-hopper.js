@@ -11,7 +11,7 @@ import homeHopperFilter from "public/images/homeHopperFilter.jpg";
 
 const HomeHopper = () => {
   return (
-    <div className="bg-stone-900 py-12">
+    <div className="py-12 overflow-y-auto">
       <Project image={homeHopperLaptop} title="Home Hopper">
         <p className="mb-4">
           MERN Web App. Based on a previous project I developed, this website is

@@ -11,7 +11,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const MoneyRain = () => {
   return (
-    <div className="bg-stone-900 py-12">
+    <div className="py-12 overflow-y-auto">
       <Project image={moneyRainLaptop} title="Money Rain">
         <p className="mb-4">
           Simple game with a recognizable character where your reflexes are
