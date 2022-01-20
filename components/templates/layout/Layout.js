@@ -6,7 +6,7 @@ const Layout = (props) => {
     <div className="grid grid-rows-layout h-full">
       <Navbar />
       {props.children}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
