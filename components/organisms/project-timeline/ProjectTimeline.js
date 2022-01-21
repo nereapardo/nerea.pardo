@@ -5,6 +5,7 @@ import ProjectCardBtn from "components/atoms/project-card-btn/ProjectCardBtn";
 
 const ProjectTimeline = () => {
   let moneyRain, homeConnection, homeHopper;
+
   return (
     <div className="container mx-auto w-full h-full my-12 px-2 lg:max-w-7xl">
       <div className="relative overflow-hidden h-full p-2 ">
