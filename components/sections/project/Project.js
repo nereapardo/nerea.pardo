@@ -5,7 +5,9 @@ const Project = ({ children, title, image, reverse = false }) => {
     flexDirection = "lg:flex-row-reverse";
   }
   return (
-    <div className={`flex flex-col-reverse justify-end ${flexDirection} mb-32`}>
+    <div
+      className={`flex flex-col-reverse justify-end ${flexDirection} mb-32 px-4`}
+    >
       <div className="py-6 lg:pr-16 flex flex-col justify-center mx-auto w-4/5 lg:w-2/5 lg:px-16">
         <h1 className="text-white text-3xl lg:text-5xl mb-6">{title}</h1>
         <div className="text-stone-300 font-light text-justify text-lg">

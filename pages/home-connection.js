@@ -39,7 +39,7 @@ const HomeConnection = () => {
       </Project>
       <Technologies
         technologies="Javascript, Handlebars, NodeJS, MongoDB"
-        className="mb-32"
+        className="mb-20"
       />
       <Project image={map} title="Why?" reverse>
         <p className="mb-4">

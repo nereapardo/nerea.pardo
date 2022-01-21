@@ -3,7 +3,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Link from "components/atoms/link";
 const Footer = () => {
   return (
-    <div className="bg-stone-800 text-neon border-t-2 border-neon ">
+    <div className="bg-stone-800 text-neon border-t-2 border-neon px-2">
       <div className="mx-auto max-w-7xl w-full flex justify-between">
         <div className="space-x-3">
           <span>Nerea Pardo Cundins</span>
