@@ -34,7 +34,7 @@ export default function Home() {
               More about me &#10141;
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1QHBUhQEKw-sKHnl4cO-3Dvtuc-plKL7-/view?usp=sharing"
+              href="https://drive.google.com/file/d/1m7OWhAJIlo2x9ZdPNF5I5ZKaAzG5t-tO/view?usp=sharing"
               external
               type="primary"
               className="mb-4  sm:mb-0"
