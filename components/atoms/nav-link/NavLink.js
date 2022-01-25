@@ -1,18 +1,17 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-const NavLink = ({ href, exact, children, ...props }) => {
+const NavLink = ({ href, exact, children, className = "", ...props }) => {
   const { pathname } = useRouter();
   const isActive = exact ? pathname === href : pathname.startsWith(href);
 
-  if (isActive) {
-    props.className = "underline";
-    console.log("is active");
-  }
+  const underlineStyles = isActive ? "underline" : "";
 
   return (
     <Link href={href}>
-      <a {...props}>{children}</a>
+      <a className={`${className} ${underlineStyles}`} {...props}>
+        {children}
+      </a>
     </Link>
   );
 };

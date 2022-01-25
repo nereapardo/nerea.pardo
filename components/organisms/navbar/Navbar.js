@@ -20,9 +20,8 @@ const Navbar = () => {
               Nerea Pardo
             </Link>
           </div>
-          {/* Left navbar */}
-          <div className="hidden md:flex items-end space-x-6">
-            <NavLink href="/" exact className="">
+          <div className="hidden md:flex items-end space-x-6 ">
+            <NavLink href="/" exact>
               Home
             </NavLink>
             <NavLink href="/about-me" exact>
@@ -31,7 +30,7 @@ const Navbar = () => {
           </div>
           {/* Mobile btn */}
           <div className="md:hidden flex items-center">
-            <button onClick={handleClick} className="mobile-menu-button">
+            <button onClick={handleClick}>
               <svg
                 className="w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
@@ -53,21 +52,21 @@ const Navbar = () => {
             <>
               <button
                 onClick={() => {
-                  router.push("/");
                   handleClick();
                 }}
-                className="text-gray-light hover:text-purple-light-background hover:underline"
               >
-                Home
+                <NavLink href="/" exact className="">
+                  Home
+                </NavLink>
               </button>
               <button
                 onClick={() => {
-                  router.push("/about-me");
                   handleClick();
                 }}
-                className="text-gray-light hover:text-purple-light-background hover:underline"
               >
-                About me
+                <NavLink href="/about-me" exact className="">
+                  About me
+                </NavLink>
               </button>
             </>
           </div>
