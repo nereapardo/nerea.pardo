@@ -2,6 +2,8 @@ import Head from "next/head";
 import MyPersonalPhoto from "components/atoms/my-personal-photo";
 import Link from "components/atoms/link";
 import ProjectTimeline from "components/organisms/project-timeline/ProjectTimeline";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   let width;
@@ -30,14 +32,24 @@ export default function Home() {
             through quality software that can make their lives easier.
           </p>
           <div className="flex flex-col sm:flex-row justify-around">
-            <Link href="/about-me" type="secondary" className="mb-4  sm:mb-0">
-              More about me &#10141;
+            <Link
+              href="/about-me"
+              type="secondary"
+              className="mb-4 sm:mb-0 inline-flex justify-center items-center"
+            >
+              More about me
+              <span>
+                <FontAwesomeIcon
+                  icon={faLongArrowAltRight}
+                  className="text-lg w-4 h-4 ml-2 inline-flex items-center"
+                />
+              </span>
             </Link>
             <Link
               href="https://drive.google.com/file/d/1m7OWhAJIlo2x9ZdPNF5I5ZKaAzG5t-tO/view?usp=sharing"
               external
               type="primary"
-              className="mb-4  sm:mb-0"
+              className="mb-4 sm:mb-0 inline-flex justify-center items-center"
             >
               My resume
             </Link>
