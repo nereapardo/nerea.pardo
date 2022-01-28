@@ -22,7 +22,11 @@ const HomeHopper = () => {
           rooms so people can contact them.
         </p>
         <div className="flex mt-8 justify-between ">
-          <Link href="#" type="secondary" external>
+          <Link
+            href="https://home-hopper.herokuapp.com/"
+            type="secondary"
+            external
+          >
             Visit site &#10141;
           </Link>
           <Link
