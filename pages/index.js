@@ -25,7 +25,7 @@ export default function Home() {
         <meta
           prefix="og: http://ogp.me/ns#"
           property="og:image"
-          content="https://500px.com/photo/1043601494/np-portfolio-by-nerea-pardo"
+          content="https://i.postimg.cc/J0Z7821v/preview.jpg"
         />
         <meta
           prefix="og: http://ogp.me/ns#"
