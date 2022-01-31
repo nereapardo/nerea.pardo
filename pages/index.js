@@ -17,11 +17,26 @@ export default function Home() {
     <div className="overflow-y-auto">
       <Head>
         <title>Nerea Pardo</title>
-        <meta name="Nerea Pardo" content="Nerea Pardo portfolio" />
-        <meta property="og:Nerea Pardo" content="Nerea Pardo portfolio" />
-        <meta property="og:image" content="/public/images/preview.jpg" />
-        <meta property="og:description" content="Nerea Pardo portfolio" />
-        <meta property="og:url" content="https://www.nereapardo.com/" />
+        <meta
+          prefix="og: http://ogp.me/ns#"
+          property="og:title"
+          content="Nerea Pardo"
+        />
+        <meta
+          prefix="og: http://ogp.me/ns#"
+          property="og:image"
+          content="/public/images/preview.jpg"
+        />
+        <meta
+          prefix="og: http://ogp.me/ns#"
+          property="og:description"
+          content="Nerea Pardo portfolio"
+        />
+        <meta
+          prefix="og: http://ogp.me/ns#"
+          property="og:url"
+          content="https://www.nereapardo.com/"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col items-center pt-16 text-white">
