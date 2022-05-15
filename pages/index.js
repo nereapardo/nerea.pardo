@@ -1,14 +1,14 @@
-import Head from "next/head";
-import MyPersonalPhoto from "components/atoms/my-personal-photo";
-import Link from "components/atoms/link";
-import ProjectTimeline from "components/organisms/project-timeline/ProjectTimeline";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
+import Head from 'next/head';
+import MyPersonalPhoto from 'components/atoms/my-personal-photo';
+import Link from 'components/atoms/link';
+import ProjectTimeline from 'components/organisms/project-timeline/ProjectTimeline';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   let width;
   const breakpoint = 1024;
-  if (typeof window !== "undefined") {
+  if (typeof window !== 'undefined') {
     width = window.innerWidth;
     console.log(width);
   }
@@ -65,7 +65,7 @@ export default function Home() {
               </span>
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1m7OWhAJIlo2x9ZdPNF5I5ZKaAzG5t-tO/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Ocb6Ho6FZOJTHHJ_k-1jGyZ4jY9hgtqU/view?usp=sharing"
               external
               type="primary"
               className="mb-4 sm:mb-0 inline-flex justify-center items-center"
